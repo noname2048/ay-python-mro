@@ -42,5 +42,6 @@ class Last(ABSum, BC):
 
 last = Last()
 last.hi()
-print()
-print(Last.__mro__)
+print("---")
+f = lambda x: (print(e) for e in x)
+print(Last.mro())
